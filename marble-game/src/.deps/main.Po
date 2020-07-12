@@ -1,0 +1,662 @@
+main.o: main.cc /home/emezeske/src/c++/common/utilities.h \
+  /usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/stdarg.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/string \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/c++config.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/os_defines.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/features.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/cdefs.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/wordsize.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/gnu/stubs.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/cpu_defines.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stringfwd.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/char_traits.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cstring \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cstddef \
+  /usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/stddef.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/string.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/xlocale.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_algobase.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/climits \
+  /usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/limits.h \
+  /usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/syslimits.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/limits.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/posix1_lim.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/local_lim.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/linux/limits.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/posix2_lim.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/xopen_lim.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/stdio_lim.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cstdlib \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/stdlib.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/waitflags.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/waitstatus.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/endian.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/endian.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/types.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/types.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/typesizes.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/time.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/select.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/select.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/sigset.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/time.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/sysmacros.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/pthreadtypes.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/alloca.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/iosfwd \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/c++locale.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/clocale \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/locale.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/locale.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cstdio \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/stdio.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/libio.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/_G_config.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/wchar.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/wchar.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/gconv.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/sys_errlist.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/c++io.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/gthr.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/gthr-default.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/pthread.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sched.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/sched.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/signal.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/setjmp.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/unistd.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/posix_opt.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/environments.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/confname.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/getopt.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cctype \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/ctype.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/postypes.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cwchar \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/ctime \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/stdint.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/functexcept.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/exception_defines.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_pair.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/cpp_type_traits.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_iterator_base_types.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_iterator_base_funcs.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/concept_check.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_iterator.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/debug/debug.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/memory \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/allocator.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/c++allocator.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/ext/new_allocator.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/new \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/exception \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_construct.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_uninitialized.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_raw_storage_iter.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/limits \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_function.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/basic_string.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/atomicity.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/atomic_word.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/algorithm \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_algo.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_heap.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_tempbuf.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/basic_string.tcc \
+  game_application.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/vector \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_vector.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_bvector.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/vector.tcc \
+  /home/emezeske/src/c++/common/sdl_interface.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_main.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_types.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_getenv.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_error.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/begin_code.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/close_code.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_rwops.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_timer.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_audio.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_byteorder.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_cdrom.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_joystick.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_events.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_active.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_keyboard.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_keysym.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_mouse.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_video.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_mutex.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_quit.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_version.h \
+  /home/emezeske/src/c++/common/utilities.h accelerometer.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/time.h \
+  vibrator.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/iostream \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/ostream \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/ios \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/localefwd.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/ios_base.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/locale_classes.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/streambuf \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/streambuf.tcc \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/basic_ios.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/streambuf_iterator.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/locale_facets.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cwctype \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/wctype.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/ctype_base.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/ctype_inline.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/codecvt.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/time_members.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/messages_members.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/basic_ios.tcc \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/ostream.tcc \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/locale \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/locale_facets.tcc \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/typeinfo \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/istream \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/istream.tcc \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/fstream \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/basic_file.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/fstream.tcc \
+  /home/emezeske/src/openmoko/Box2D/Include/Box2D.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Common/b2Settings.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/assert.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/math.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/huge_val.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/huge_valf.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/huge_vall.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/inf.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/nan.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/mathdef.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/mathcalls.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Common/Fixed.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/b2CircleShape.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/b2Shape.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/../../Common/b2Math.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/../../Common/b2Settings.h \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cmath \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/cmath.tcc \
+  /usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cfloat \
+  /usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/float.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/../b2Collision.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/../../Common/b2Math.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/b2PolygonShape.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/b2BroadPhase.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/../Common/b2Settings.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/b2Collision.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/b2PairManager.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/../Common/b2Math.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2WorldCallbacks.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2Settings.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2World.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2Math.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2BlockAllocator.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2Settings.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2StackAllocator.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2ContactManager.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Collision/b2BroadPhase.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/b2NullContact.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/../../Common/b2Math.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/b2Contact.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/../../Collision/b2Collision.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/../../Collision/Shapes/b2Shape.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2WorldCallbacks.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2Body.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Collision/Shapes/b2Shape.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2Joint.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/../../Common/b2Math.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Contacts/b2Contact.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2DistanceJoint.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2Joint.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2MouseJoint.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2PrismaticJoint.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2RevoluteJoint.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2PulleyJoint.h \
+  /home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2GearJoint.h \
+  /home/emezeske/src/c++/common/exceptions.h
+
+/home/emezeske/src/c++/common/utilities.h:
+
+/usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/stdarg.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/string:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/c++config.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/os_defines.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/features.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/cdefs.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/wordsize.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/gnu/stubs.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/cpu_defines.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stringfwd.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/char_traits.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cstring:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cstddef:
+
+/usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/stddef.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/string.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/xlocale.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_algobase.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/climits:
+
+/usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/limits.h:
+
+/usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/syslimits.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/limits.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/posix1_lim.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/local_lim.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/linux/limits.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/posix2_lim.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/xopen_lim.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/stdio_lim.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cstdlib:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/stdlib.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/waitflags.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/waitstatus.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/endian.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/endian.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/types.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/types.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/typesizes.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/time.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/select.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/select.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/sigset.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/time.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/sysmacros.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/pthreadtypes.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/alloca.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/iosfwd:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/c++locale.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/clocale:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/locale.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/locale.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cstdio:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/stdio.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/libio.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/_G_config.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/wchar.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/wchar.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/gconv.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/sys_errlist.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/c++io.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/gthr.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/gthr-default.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/pthread.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sched.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/sched.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/signal.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/setjmp.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/unistd.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/posix_opt.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/environments.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/confname.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/getopt.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cctype:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/ctype.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/postypes.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cwchar:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/ctime:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/stdint.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/functexcept.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/exception_defines.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_pair.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/cpp_type_traits.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_iterator_base_types.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_iterator_base_funcs.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/concept_check.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_iterator.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/debug/debug.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/memory:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/allocator.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/c++allocator.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/ext/new_allocator.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/new:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/exception:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_construct.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_uninitialized.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_raw_storage_iter.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/limits:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_function.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/basic_string.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/atomicity.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/atomic_word.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/algorithm:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_algo.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_heap.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_tempbuf.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/basic_string.tcc:
+
+game_application.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/vector:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_vector.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/stl_bvector.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/vector.tcc:
+
+/home/emezeske/src/c++/common/sdl_interface.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_main.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_types.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_getenv.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_error.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/begin_code.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/close_code.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_rwops.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_timer.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_audio.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_byteorder.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_cdrom.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_joystick.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_events.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_active.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_keyboard.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_keysym.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_mouse.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_video.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_mutex.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_quit.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/SDL/SDL_version.h:
+
+/home/emezeske/src/c++/common/utilities.h:
+
+accelerometer.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/sys/time.h:
+
+vibrator.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/iostream:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/ostream:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/ios:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/localefwd.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/ios_base.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/locale_classes.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/streambuf:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/streambuf.tcc:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/basic_ios.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/streambuf_iterator.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/locale_facets.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cwctype:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/wctype.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/ctype_base.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/ctype_inline.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/codecvt.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/time_members.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/messages_members.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/basic_ios.tcc:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/ostream.tcc:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/locale:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/locale_facets.tcc:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/typeinfo:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/istream:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/istream.tcc:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/fstream:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/arm-angstrom-linux-gnueabi/bits/basic_file.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/fstream.tcc:
+
+/home/emezeske/src/openmoko/Box2D/Include/Box2D.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Common/b2Settings.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/assert.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/math.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/huge_val.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/huge_valf.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/huge_vall.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/inf.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/nan.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/mathdef.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/bits/mathcalls.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Common/Fixed.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/b2CircleShape.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/b2Shape.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/../../Common/b2Math.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/../../Common/b2Settings.h:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cmath:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/bits/cmath.tcc:
+
+/usr/local/openmoko/arm/arm-angstrom-linux-gnueabi/usr/include/c++/4.1.2/cfloat:
+
+/usr/local/openmoko/arm/lib/gcc/arm-angstrom-linux-gnueabi/4.1.2/include/float.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/../b2Collision.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/../../Common/b2Math.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/Shapes/b2PolygonShape.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/b2BroadPhase.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/../Common/b2Settings.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/b2Collision.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/b2PairManager.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Collision/../Common/b2Math.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2WorldCallbacks.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2Settings.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2World.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2Math.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2BlockAllocator.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2Settings.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Common/b2StackAllocator.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2ContactManager.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Collision/b2BroadPhase.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/b2NullContact.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/../../Common/b2Math.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/b2Contact.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/../../Collision/b2Collision.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Dynamics/Contacts/../../Collision/Shapes/b2Shape.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2WorldCallbacks.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/b2Body.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/../Collision/Shapes/b2Shape.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2Joint.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/../../Common/b2Math.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Contacts/b2Contact.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2DistanceJoint.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2Joint.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2MouseJoint.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2PrismaticJoint.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2RevoluteJoint.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2PulleyJoint.h:
+
+/home/emezeske/src/openmoko/Box2D/Include/../Source/Dynamics/Joints/b2GearJoint.h:
+
+/home/emezeske/src/c++/common/exceptions.h:

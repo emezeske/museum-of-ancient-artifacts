@@ -1,0 +1,7 @@
+passable_tile.png   -32 -16
+path_tile.png       -32 -16
+wall.png            -32 -16
+tesla_tower.png     -32 -16
+drone_highlight.png -32 -16
+drone_e.png         -17 -5
+bg.png               0   0 

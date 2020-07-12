@@ -1,0 +1,9 @@
+Package: marble-game
+Priority: optional
+Version: 0.1
+Section: openmoko/applications
+Maintainer: Evan Mezeske <emezeske aht gmail doht com>
+Architecture: armv4t
+Source: ${SRC}
+Depends: libsdl-1.2-0, libsdl-image-1.2-0
+Description: Guide a marble by tilting your phone

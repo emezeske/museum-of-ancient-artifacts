@@ -1,0 +1,115 @@
+section: world_object thing_1 {
+	#Position
+	#x		y		rot
+	100.0	0.0		0.0
+	#Velocity
+	#x		y		rot
+	-0.02	-0.01	0.001
+	#Acceleration
+	#x		y		rot
+	0.0		0.0		0.0
+	#Mass
+	10.0
+	#Vertex list
+	#x		y
+	10.0	10.0
+	20.0	0.0
+	10.0	-10.0
+	0.0		-20.0
+	-10.0	-10.0
+	-30.0	10.0
+	0.0		50.0
+}
+
+section: world_object thing_2 {
+	#Position
+	#x		y		rot
+	-100.0	0.0		0.0
+	#Velocity
+	#x		y		rot
+	0.01	0.005	-0.002
+	#Acceleration
+	#x		y		rot
+	0.0		0.0		0.0
+	#Mass
+	10.0
+	#Vertex list
+	#x		y
+	20.0	10.0
+	10.0	0.0
+	10.0	-10.0
+	0.0		-20.0
+	-10.0	-10.0
+	-10.0	10.0
+	0.0		50.0
+}
+
+section: world_object thing_3 {
+	#Position
+	#x		y		rot
+	0.0		150.0	0.0
+	#Velocity
+	#x		y		rot
+	0.0		-0.05	0.004
+	#Acceleration
+	#x		y		rot
+	0.0		0.0		0.0
+	#Mass
+	10.0
+	#Vertex list
+	#x		y
+	40.0	10.0
+	10.0	0.0
+	10.0	-10.0
+	0.0		-20.0
+	-10.0	-10.0
+	-20.0	10.0
+	0.0		50.0
+}
+
+section: world_object thing_4 {
+	#Position
+	#x		y		rot
+	-200.0	0.0		0.0
+	#Velocity
+	#x		y		rot
+	0.03	0.01	0.001
+	#Acceleration
+	#x		y		rot
+	0.0		0.0		0.0
+	#Mass
+	10.0
+	#Vertex list
+	#x		y
+	10.0	10.0
+	20.0	0.0
+	10.0	-10.0
+	0.0		-20.0
+	-10.0	-10.0
+	-30.0	10.0
+	0.0		50.0
+}
+
+section: world_object thing_5 {
+	#Position
+	#x		y		rot
+	-300.0	0.0		0.0
+	#Velocity
+	#x		y		rot
+	0.02	0.005	0.007
+	#Acceleration
+	#x		y		rot
+	0.0		0.0		0.0
+	#Mass
+	10.0
+	#Vertex list
+	#x		y
+	20.0	10.0
+	10.0	0.0
+	10.0	-10.0
+	0.0		-20.0
+	-10.0	-10.0
+	-10.0	10.0
+	0.0		50.0
+}
+

@@ -1,0 +1,9 @@
+1) Create a function that, given two audio files, can determine how similar they are.
+    o Sliding Fast Fourier Transform window?
+    o Hidden Markov Model?
+
+2) Create an algorithm for randomly mutating a given particle string's parameters.
+    o Only change one feature at a time?
+    o Provide a way to specify how much change should take place?
+
+3) Create an evolutionary algorithm to attempt to match the string parameters against a real string sound.

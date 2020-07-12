@@ -1,0 +1,5 @@
+# DO NOT DELETE
+
+main.o: globals.h edge_detector.h camera.h
+camera.o: camera.h
+edge_detector.o: globals.h edge_detector.h

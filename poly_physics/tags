@@ -1,0 +1,186 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+COLLISION_NONE	physics_obj.h	/^	COLLISION_NONE,$/;"	e	enum:collision_type
+COLLISION_OVERLAP	physics_obj.h	/^	COLLISION_OVERLAP$/;"	e	enum:collision_type
+COLLISION_TOUCH	physics_obj.h	/^	COLLISION_TOUCH,$/;"	e	enum:collision_type
+DRAWABLE_H	drawable.h	2;"	d
+FAULT	utilities.h	/^	FAULT,$/;"	e	enum:notify_level
+GEOMETRY_H	geometry.h	2;"	d
+INFO	utilities.h	/^	INFO,$/;"	e	enum:notify_level
+NOTIFY	utilities.h	9;"	d
+OFF	utilities.h	/^	OFF = 0,$/;"	e	enum:notify_level
+PARSER_H	parser.h	2;"	d
+PHYSICS_OBJ_H	physics_obj.h	2;"	d
+RENDERER_H	renderer.h	2;"	d
+SCREEN_H	main.cc	/^	SCREEN_H = 600;$/;"	v
+SCREEN_W	main.cc	/^	SCREEN_W = 800,$/;"	v
+SIMULATOR_H	simulator.h	2;"	d
+UTILITIES_H	utilities.h	2;"	d
+VERBOSE	utilities.h	/^	VERBOSE$/;"	e	enum:notify_level
+VNOTIFY	utilities.h	10;"	d
+WORLD_OBJ_H	world_obj.h	2;"	d
+_acc	physics_obj.h	/^			_acc;$/;"	m	class:physics_obj
+_bb	physics_obj.h	/^		bounding_box _bb;$/;"	m	class:physics_obj
+_collisions	simulator.h	/^	collision_vec _collisions;$/;"	m	class:simulator
+_contents	parser.h	/^	vector< string > _contents;$/;"	m	struct:sect_parser::sect_info
+_cur	simulator.h	/^		*_cur,$/;"	m	struct:physics_obj_pair
+_displacement	geometry.h	/^		_displacement;$/;"	m	struct:ray_2d
+_do_notify	utilities.cc	/^void _do_notify( notify_level l, const char *fmt, ... )$/;"	f	namespace:utilities
+_draw_list	renderer.h	/^	drawable_vec _draw_list;$/;"	m	class:renderer
+_edges	geometry.h	/^	ray_2d_vector _edges;$/;"	m	struct:poly_2d
+_elasticity	physics_obj.h	/^			_elasticity;$/;"	m	class:physics_obj
+_global_acc	simulator.h	/^	vec_2d _global_acc;$/;"	m	class:simulator
+_id	parser.h	/^		_id;$/;"	m	struct:sect_parser::sect_info
+_ll	geometry.h	/^		_ll,$/;"	m	struct:bounding_box
+_mass	physics_obj.h	/^			_mass,$/;"	m	class:physics_obj
+_mo_inertia	physics_obj.h	/^			_mo_inertia,$/;"	m	class:physics_obj
+_name	parser.h	/^		_name,$/;"	m	struct:sect_parser::sect_info
+_next	simulator.h	/^		_next;$/;"	m	struct:physics_obj_pair
+_norm	physics_obj.h	/^		_norm;$/;"	m	struct:collision_desc
+_origin	geometry.h	/^		_origin,$/;"	m	struct:ray_2d
+_physics_objs	simulator.h	/^	po_pair_vec _physics_objs;$/;"	m	class:simulator
+_po1	physics_obj.h	/^		*_po1,$/;"	m	struct:collision_desc
+_po2	physics_obj.h	/^		*_po2;$/;"	m	struct:collision_desc
+_pos	physics_obj.h	/^			_pos,$/;"	m	class:physics_obj
+_r0c0	geometry.h	/^		_r0c0, _r0c1,$/;"	m	struct:matrix2x2
+_r0c1	geometry.h	/^		_r0c0, _r0c1,$/;"	m	struct:matrix2x2
+_r1c0	geometry.h	/^		_r1c0, _r1c1;$/;"	m	struct:matrix2x2
+_r1c1	geometry.h	/^		_r1c0, _r1c1;$/;"	m	struct:matrix2x2
+_racc	physics_obj.h	/^			_racc,$/;"	m	class:physics_obj
+_radius	physics_obj.h	/^			_radius,$/;"	m	class:physics_obj
+_rel_vel	physics_obj.h	/^	wu_t _rel_vel;$/;"	m	struct:collision_desc
+_rot	physics_obj.h	/^			_rot,$/;"	m	class:physics_obj
+_shape	physics_obj.h	/^			_shape,$/;"	m	class:physics_obj
+_ur	geometry.h	/^		_ur;$/;"	m	struct:bounding_box
+_vel	physics_obj.h	/^			_vel,$/;"	m	class:physics_obj
+_vrot	physics_obj.h	/^			_vrot,$/;"	m	class:physics_obj
+_where	physics_obj.h	/^		_where,$/;"	m	struct:collision_desc
+_world_poly	physics_obj.h	/^			_world_poly;$/;"	m	class:physics_obj
+_x	geometry.h	/^		_x,$/;"	m	struct:vec_2d
+_y	geometry.h	/^		_y;$/;"	m	struct:vec_2d
+add_drawable	renderer.cc	/^void renderer::add_drawable( drawable *d )$/;"	f	class:renderer
+add_physics_obj	simulator.cc	/^void simulator::add_physics_obj( physics_obj *p )$/;"	f	class:simulator
+add_section_handler	parser.cc	/^void add_section_handler( string sect_name, sect_handler h )$/;"	f	namespace:sect_parser
+add_vertex	geometry.cc	/^void poly_2d::add_vertex( const vec_2d &v )$/;"	f	class:poly_2d
+between	geometry.cc	/^inline bool between( wu_t n, wu_t bound1, wu_t bound2 )$/;"	f
+bounding_box	geometry.cc	/^bounding_box::bounding_box( const poly_2d &p )$/;"	f	class:bounding_box
+bounding_box	geometry.h	/^	bounding_box() : _ll(), _ur() {}$/;"	f	struct:bounding_box
+bounding_box	geometry.h	/^struct bounding_box$/;"	s
+check_collision	physics_obj.cc	/^collision_type physics_obj::check_collision( physics_obj &po, collision_desc &col )$/;"	f	class:physics_obj
+collision_desc	physics_obj.h	/^struct collision_desc$/;"	s
+collision_type	physics_obj.h	/^enum collision_type $/;"	g
+collision_vec	simulator.h	/^typedef vector< collision_desc > collision_vec;$/;"	t
+collision_vec_iter	simulator.h	/^typedef vector< collision_desc >::iterator collision_vec_iter;$/;"	t
+current_notify_level	utilities.cc	/^notify_level current_notify_level = FAULT;$/;"	v
+deg_per_rad	geometry.h	/^	deg_per_rad = 180.0 \/ M_PI,$/;"	v
+detect_collisions	simulator.cc	/^collision_type simulator::detect_collisions()$/;"	f	class:simulator
+die	utilities.cc	/^void die( int code )$/;"	f	namespace:utilities
+display	main.cc	/^void display( void ) $/;"	f
+dist_orig	geometry.h	/^inline wu_t dist_orig( vec_2d v )$/;"	f	namespace:geom
+distance	geometry.h	/^inline wu_t distance( vec_2d a, vec_2d b )$/;"	f	namespace:geom
+draw	world_obj.cc	/^\/* virtual *\/ void world_obj::draw()$/;"	f	class:world_obj
+draw_all	renderer.cc	/^void renderer::draw_all()$/;"	f	class:renderer
+drawable	drawable.h	/^class drawable$/;"	c
+drawable_vec	renderer.h	/^typedef vector< drawable * > drawable_vec;$/;"	t
+drawable_vec_iter	renderer.h	/^typedef vector< drawable * >::iterator drawable_vec_iter;$/;"	t
+endpoint_touches_line	geometry.cc	/^bool endpoint_touches_line( const ray_2d &e, const ray_2d &l, vec_2d &where, vec_2d &norm )$/;"	f
+free_contained	utilities.h	/^void free_contained( T &c )$/;"	f	namespace:utilities
+fuzziness	geometry.h	/^	fuzziness = 0.01; 	\/\/ This value affects how many times a particular simulation step$/;"	v
+fuzzy_cmp	geometry.h	/^inline bool fuzzy_cmp( wu_t lhs, wu_t rhs )$/;"	f	namespace:geom
+geom	geometry.h	/^namespace geom $/;"	n
+get_bounding_box	world_obj.h	/^		virtual bounding_box &get_bounding_box() { return _bb; }$/;"	f	class:world_obj
+get_next_pos	physics_obj.cc	/^physics_obj physics_obj::get_next_pos( wu_t delta, vec_2d acc )$/;"	f	class:physics_obj
+get_next_section	parser.cc	/^bool get_next_section( FILE *ifs, sect_info &sect )$/;"	f	namespace:sect_parser
+get_rotation_matrix	geometry.h	/^	static matrix2x2 get_rotation_matrix( wu_t theta )$/;"	f	struct:matrix2x2
+handle_collision	physics_obj.cc	/^\/* static *\/ void physics_obj::handle_collision( collision_desc &col )$/;"	f	class:physics_obj
+handler_map	parser.h	/^typedef map< string, sect_handler > handler_map;$/;"	t	namespace:sect_parser
+handler_map_iter	parser.h	/^typedef map< string, sect_handler >::iterator handler_map_iter;$/;"	t	namespace:sect_parser
+idle	main.cc	/^void idle( void )$/;"	f
+init_game	main.cc	/^void init_game()$/;"	f
+init_window	main.cc	/^void init_window( void )$/;"	f
+key_down	main.cc	/^void key_down( unsigned char k, int, int )$/;"	f
+key_up	main.cc	/^void key_up( unsigned char, int, int )$/;"	f
+mag	geometry.h	/^	wu_t mag() const$/;"	f	struct:vec_2d
+mag_sq	geometry.h	/^	wu_t mag_sq() const$/;"	f	struct:vec_2d
+main	main.cc	/^int main( int argc, char **argv ) $/;"	f
+matrix2x2	geometry.h	/^	matrix2x2( wu_t r0c0, wu_t r0c1, wu_t r1c0, wu_t r1c1 ) :$/;"	f	struct:matrix2x2
+matrix2x2	geometry.h	/^struct matrix2x2$/;"	s
+normal	geometry.h	/^	vec_2d normal() const$/;"	f	struct:vec_2d
+normalize	geometry.h	/^	vec_2d normalize()$/;"	f	struct:vec_2d
+notify_level	utilities.h	/^enum notify_level$/;"	g
+operator *	geometry.h	/^	vec_2d operator * ( const vec_2d &v )$/;"	f	struct:matrix2x2
+operator *	geometry.h	/^	vec_2d operator * ( const wu_t s ) const$/;"	f	struct:vec_2d
+operator *	geometry.h	/^	wu_t operator * ( const vec_2d &rhs ) const$/;"	f	struct:vec_2d
+operator +	geometry.h	/^	vec_2d operator + ( const vec_2d &rhs ) const$/;"	f	struct:vec_2d
+operator +=	geometry.h	/^	vec_2d operator += ( const vec_2d &rhs )$/;"	f	struct:vec_2d
+operator -	geometry.h	/^	vec_2d operator - ( const vec_2d &rhs ) const$/;"	f	struct:vec_2d
+operator -=	geometry.h	/^	vec_2d operator -= ( const vec_2d &rhs )$/;"	f	struct:vec_2d
+operator /	geometry.h	/^	vec_2d operator \/ ( const wu_t s ) const$/;"	f	struct:vec_2d
+overlaps	geometry.cc	/^bool bounding_box::overlaps( const bounding_box &b ) const$/;"	f	class:bounding_box
+overlaps	geometry.cc	/^bool poly_2d::overlaps( const poly_2d &p ) const$/;"	f	class:poly_2d
+overlaps	geometry.cc	/^bool ray_2d::overlaps( const ray_2d &r ) const$/;"	f	class:ray_2d
+parse_file	parser.cc	/^bool parse_file( const char *filename )$/;"	f	namespace:sect_parser
+physics_obj	physics_obj.h	/^		physics_obj() :$/;"	f	class:physics_obj
+physics_obj	physics_obj.h	/^class physics_obj$/;"	c
+physics_obj_pair	simulator.h	/^	physics_obj_pair( physics_obj *p ) : _cur( p ), _next() {}$/;"	f	struct:physics_obj_pair
+physics_obj_pair	simulator.h	/^	physics_obj_pair() : _cur( 0 ), _next() {}$/;"	f	struct:physics_obj_pair
+physics_obj_pair	simulator.h	/^struct physics_obj_pair$/;"	s
+po_pair_vec	simulator.h	/^typedef vector< physics_obj_pair > po_pair_vec;$/;"	t
+po_pair_vec_iter	simulator.h	/^typedef vector< physics_obj_pair >::iterator po_pair_vec_iter;$/;"	t
+point_velocity	physics_obj.cc	/^vec_2d physics_obj::point_velocity( const vec_2d &v ) const$/;"	f	class:physics_obj
+poly_2d	geometry.h	/^	poly_2d( const poly_2d &rhs ) :$/;"	f	struct:poly_2d
+poly_2d	geometry.h	/^	poly_2d() : _edges() {};$/;"	f	struct:poly_2d
+poly_2d	geometry.h	/^struct poly_2d$/;"	s
+poly_2d_vec	geometry.h	/^typedef std::vector< poly_2d * > poly_2d_vec;$/;"	t
+poly_2d_vec_iter	geometry.h	/^typedef std::vector< poly_2d * >::iterator poly_2d_vec_iter;$/;"	t
+precalculate	geometry.cc	/^void poly_2d::precalculate()$/;"	f	class:poly_2d
+precalculate	physics_obj.cc	/^void physics_obj::precalculate()$/;"	f	class:physics_obj
+ray_2d	geometry.h	/^	ray_2d( const ray_2d &rhs )$/;"	f	struct:ray_2d
+ray_2d	geometry.h	/^	ray_2d( vec_2d origin, vec_2d terminant ) :$/;"	f	struct:ray_2d
+ray_2d	geometry.h	/^	ray_2d() : _origin(), _displacement() {};$/;"	f	struct:ray_2d
+ray_2d	geometry.h	/^struct ray_2d$/;"	s
+ray_2d_vector	geometry.h	/^typedef std::vector< ray_2d > ray_2d_vector;$/;"	t
+ray_2d_vector_citer	geometry.h	/^typedef std::vector< ray_2d >::const_iterator ray_2d_vector_citer;$/;"	t
+ray_2d_vector_iter	geometry.h	/^typedef std::vector< ray_2d >::iterator ray_2d_vector_iter;$/;"	t
+renderer	renderer.h	/^class renderer$/;"	c
+rm_drawable	renderer.cc	/^void renderer::rm_drawable( drawable *d )$/;"	f	class:renderer
+rm_physics_obj	simulator.cc	/^void simulator::rm_physics_obj( physics_obj *p )$/;"	f	class:simulator
+rndr	main.cc	/^renderer rndr;$/;"	v
+rotate	geometry.cc	/^void poly_2d::rotate( wu_t theta )$/;"	f	class:poly_2d
+sect_handler	parser.h	/^typedef bool ( *sect_handler )( const sect_info & );$/;"	t	namespace:sect_parser
+sect_info	parser.h	/^struct sect_info$/;"	s	namespace:sect_parser
+sect_parser	parser.cc	/^namespace sect_parser$/;"	n	file:
+sect_parser	parser.h	/^namespace sect_parser$/;"	n
+set_notify_level	utilities.cc	/^notify_level set_notify_level( notify_level l )$/;"	f	namespace:utilities
+sim	main.cc	/^simulator sim;$/;"	v
+simulator	simulator.h	/^		simulator() : _physics_objs(), _global_acc( 0.0, 0.0 ) {}$/;"	f	class:simulator
+simulator	simulator.h	/^class simulator$/;"	c
+slope	geometry.h	/^	wu_t slope() const$/;"	f	struct:vec_2d
+solve_collisions	simulator.cc	/^void simulator::solve_collisions()$/;"	f	class:simulator
+stop	physics_obj.h	/^		void stop() { _vel = vec_2d(); _vrot = 0.0; } $/;"	f	class:physics_obj
+str	utilities.h	6;"	d
+touches	geometry.cc	/^bool poly_2d::touches( const poly_2d &p, vec_2d &where, vec_2d &norm ) const$/;"	f	class:poly_2d
+touches	geometry.cc	/^bool ray_2d::touches( const ray_2d &r, vec_2d &where, vec_2d &norm ) const$/;"	f	class:ray_2d
+translate	geometry.cc	/^void poly_2d::translate( vec_2d v )$/;"	f	class:poly_2d
+update_all	simulator.cc	/^void simulator::update_all( wu_t delta )$/;"	f	class:simulator
+update_cur	simulator.h	/^	void update_cur()$/;"	f	struct:physics_obj_pair
+update_world_poly	physics_obj.cc	/^void physics_obj::update_world_poly()$/;"	f	class:physics_obj
+user_handlers	parser.cc	/^handler_map user_handlers;$/;"	v
+utilities	utilities.cc	/^namespace utilities$/;"	n	file:
+utilities	utilities.h	/^namespace utilities$/;"	n
+vec_2d	geometry.h	/^	vec_2d( const vec_2d &rhs ) $/;"	f	struct:vec_2d
+vec_2d	geometry.h	/^	vec_2d( wu_t x, wu_t y ) : _x( x ), _y( y ) {};$/;"	f	struct:vec_2d
+vec_2d	geometry.h	/^	vec_2d() : _x( 0.0 ), _y( 0.0 ) {};$/;"	f	struct:vec_2d
+vec_2d	geometry.h	/^struct vec_2d$/;"	s
+world_obj	world_obj.cc	/^world_obj::world_obj( const vector< string > &sv ) : $/;"	f	class:world_obj
+world_obj	world_obj.h	/^		world_obj( physics_obj po ) :$/;"	f	class:world_obj
+world_obj	world_obj.h	/^class world_obj : public drawable, public physics_obj$/;"	c
+world_obj_handler	main.cc	/^bool world_obj_handler( const sect_parser::sect_info &i )$/;"	f
+wu_t	geometry.h	/^typedef float wu_t; \/\/ World Unit Type$/;"	t
+xstr	utilities.h	7;"	d
+~drawable	drawable.h	/^		virtual ~drawable() {};$/;"	f	class:drawable
+~physics_obj	physics_obj.h	/^		virtual ~physics_obj() {}$/;"	f	class:physics_obj

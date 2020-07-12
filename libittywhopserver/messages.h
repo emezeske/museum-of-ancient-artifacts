@@ -1,0 +1,14 @@
+const char MSG_ID           = 22;
+const char MSG_DISCONNECT   = 24;
+const char MSG_PLACE_PIECE  = 23;
+const char MSG_GAME_CHAT    = 26;
+const char MSG_LOGON        = 27;
+const char MSG_LOBBY_CHAT   = 28;
+const char MSG_ENTER_LOBBY  = 29;
+const char MSG_EXIT_LOBBY   = 30;
+const char MSG_NEW_GAME     = 31; 
+const char MSG_CANCEL_GAME  = 32;
+const char MSG_JOIN_GAME    = 33;
+const char MSG_UNJOIN_GAME  = 35;
+const char MSG_START_GAME   = 34;
+const char MSG_MVMT_UPDATE  = 25;

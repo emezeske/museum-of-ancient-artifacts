@@ -1,0 +1,2 @@
+Port Number: 7890
+Max Players: 20

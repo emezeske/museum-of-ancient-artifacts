@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Marble Game
+Comment=Guide a marble by tilting your phone
+Type=Game
+Exec=marble-game
+Terminal=false
+Categories=GTK;
+X-MB-SingleInstance=true
+Icon=marble-game
+

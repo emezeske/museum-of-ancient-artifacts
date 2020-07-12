@@ -1,0 +1,12 @@
+#define MAX_TEXTURES 2
+
+#define MAX_SKIER_SPEED -0.012
+#define SKIER_DEC_RATE -0.0000006
+
+#define GRAV_ACC_RATE -0.00000002
+
+#define PI 3.14159
+
+#define HILL_LENGTH 6000
+
+#define MAX_TREES 100

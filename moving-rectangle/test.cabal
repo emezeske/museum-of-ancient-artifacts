@@ -1,0 +1,12 @@
+Name:                test
+Version:             0.0
+Description:         Super cool mega lambdas
+License:             GPL
+License-file:        LICENSE
+Author:              Evan Mezeske
+Maintainer:          emezeske@gmail.com
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+Executable test
+    Main-is: Test.hs
+    Build-depends: base >=4, SDL, OpenGL, mtl
