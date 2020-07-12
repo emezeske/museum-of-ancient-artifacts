@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/turn_name_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Turn Name"/>
+    <EditText
+        android:id="@+id/turn_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+    <TextView
+        android:id="@+id/turn_type_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Turn Type"/>
+    <Spinner 
+        android:id="@+id/turn_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/turn_type_prompt"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+    <TextView
+        android:id="@+id/initiative_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Initiative"/>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+        <TableRow>
+            <TextView
+                android:id="@+id/initiative_roll_label"
+                android:textSize="12sp"
+                android:text="Roll"/>
+            <TextView
+                android:id="@+id/initiative_bonus_label"
+                android:textSize="12sp"
+                android:text="Bonus"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/initiative_roll"/>
+            <EditText
+                android:id="@+id/initiative_bonus"/>
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dip"
+        android:background="#FF000000"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Delete"/>
+</LinearLayout>

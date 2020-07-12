@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">D&amp;D Turn Timer</string>
+    <string name="turn_list">Turn List</string>
+    <string name="turn_editor">Turn Editor</string>
+    <string name="turn_timer">Turn Timer</string>
+    <string name="settings">Settings</string>
+
+    <string name="menu_add_turn">Add Turn</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_show_timer">Show Timer</string>
+
+    <string name="menu_reset_encounter">Reset Encounter</string>
+
+    <string name="turn_type_prompt">Turn Type</string>
+    <string-array name="turn_types">
+        <item>Player</item>
+        <item>Dungeon Master</item>
+    </string-array>
+</resources>

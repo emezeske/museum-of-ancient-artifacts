@@ -1,0 +1,12 @@
+#########################################################################
+# TODO
+#########################################################################
+
+o Instead of using the ArrayList<Turn> for managing the turn list, create a table that contains
+  sorted turns, and use a Cursor, with requery() and Activity.startManagingCursor.
+
+#########################################################################
+# To build and install:
+#########################################################################
+
+ant clean debug && adb -e install -r bin/dnd_turn_timer-debug.apk

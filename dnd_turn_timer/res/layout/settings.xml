@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/player_turn_time_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Player Turn Time"/>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+        <TableRow>
+            <TextView
+                android:id="@+id/player_turn_time_minutes_label"
+                android:textSize="12sp"
+                android:text="Minutes"/>
+            <TextView
+                android:id="@+id/player_turn_time_seconds_label"
+                android:textSize="12sp"
+                android:text="Seconds"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/player_turn_time_minutes"/>
+            <EditText
+                android:id="@+id/player_turn_time_seconds"/>
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+    <TextView
+        android:id="@+id/dm_turn_time_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="DM Turn Time"/>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+        <TableRow>
+            <TextView
+                android:id="@+id/dm_turn_time_minutes_label"
+                android:textSize="12sp"
+                android:text="Minutes"/>
+            <TextView
+                android:id="@+id/dm_turn_time_seconds_label"
+                android:textSize="12sp"
+                android:text="Seconds"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/dm_turn_time_minutes"/>
+            <EditText
+                android:id="@+id/dm_turn_time_seconds"/>
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dip"
+        android:background="#FF000000"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="Save"/>
+</LinearLayout>
