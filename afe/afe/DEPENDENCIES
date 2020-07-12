@@ -1,0 +1,6 @@
+libboost1.35-dev
+libcegui-mk2-1-dev
+libsdl-dev
+libsdl-image1.2-dev
+scons
+exuberant-ctags
